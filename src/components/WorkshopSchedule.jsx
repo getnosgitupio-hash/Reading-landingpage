@@ -18,33 +18,36 @@ const WorkshopSchedule = () => {
     <div className="bg-[#D2F801] rounded-t-xl shadow-md px-4 py-4 border">
       <h3 className="text-sm font-bold">DAY 1</h3>
       <h4 className="text-lg font-extrabold mt-1 max-sm:text-base">
-        True, False & Not Given
+        Opinion Essay Foundation Engine
       </h4>
     </div>
     <div className="p-6">
-      <p className="font-semibold max-sm:text-sm">
-        What you usually do: Guess blindly, overthink statements, lose marks.
-      </p>
-
-      <p className="mt-3 font-semibold max-sm:text-sm">What I’ll teach you:</p>
       <ul className="space-y-2 mt-2 text-base">
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Step-by-step decoding method to identify the exact meaning.
+          Master Task 2 opinion essays by understanding official IELTS marking criteria
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Keyword alignment strategy to spot traps.
+          Learn what examiners expect for Band 7+ writing
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Live practice to build speed and confidence.
+          Understand ideal essay structure and argument building
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Develop strong arguments with clarity and logic
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Avoid common mistakes that keep scores below Band 7
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Build a confident writing approach from Day 1
         </li>
       </ul>
-
-      <p className="mt-4 text-sm text-gray-900">
-        Your takeaway: Never guess blindly and instantly spot NOT GIVEN vs FALSE.
-      </p>
     </div>
   </div>
 
@@ -53,37 +56,36 @@ const WorkshopSchedule = () => {
     <div className="bg-[#D2F801] rounded-t-xl shadow-md px-4 py-4 border">
       <h3 className="text-sm font-bold">DAY 2</h3>
       <h4 className="text-lg font-extrabold mt-1 max-sm:text-base">
-        Matching Headings
+        Advanced Essay Writing & Score Boosting
       </h4>
     </div>
     <div className="p-6">
-      <p className="font-semibold max-sm:text-sm">
-        What you usually do: Read every word, waste time, choose headings that
-        “sound correct.”
-      </p>
-
-      <p className="mt-3 font-semibold max-sm:text-sm">
-        What Band 9 scorers do (my strategy):
-      </p>
       <ul className="space-y-2 mt-2 text-sm lg:text-base">
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          3-step paragraph analysis.
+          Yesterday was clarity... today is control
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Recognize patterns like examiners do.
+          Take Task 2 writing to the next level with advanced structure
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Eliminate wrong options instantly.
+          Master idea generation under time pressure
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Write sharp and precise essays with confidence
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Maintain consistency without losing marks
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          No overthinking. No confusion. Just execution
         </li>
       </ul>
-
-      <p className="mt-4 text-sm text-gray-900">
-        Your takeaway: Match headings effortlessly and finish faster than 90% of
-        test takers.
-      </p>
     </div>
   </div>
 
@@ -92,36 +94,36 @@ const WorkshopSchedule = () => {
     <div className="bg-[#D2F801] rounded-t-xl shadow-md px-4 py-4 border">
       <h3 className="text-sm font-bold">DAY 3</h3>
       <h4 className="text-lg font-extrabold mt-1 max-sm:text-base">
-        Matching Information
+        Discussion Essay Decoded
       </h4>
     </div>
     <div className="p-6">
-      <p className="font-semibold max-sm:text-sm">
-        What you usually do: Hunt randomly, panic, reread endlessly.
-      </p>
-
-      <p className="mt-3 font-semibold max-sm:text-sm">
-        What Band 9 scorers do (my strategy):
-      </p>
       <ul className="space-y-2 mt-2 text-sm lg:text-base">
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Information Mapping technique.
+          Think like a Band 7+ writer with full control over structure
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Connect scattered info logically.
+          Discussion essays are about balance, clarity, and logical flow
         </li>
         <li className="flex gap-2">
           <img src={tickIcon} alt="tick" className="w-5 h-5" />
-          Practice tricks that save minutes per question.
+          Learn how to present both sides effectively and fairly
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Structure ideas with precision and coherence
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Avoid common mistakes that reduce scoring potential
+        </li>
+        <li className="flex gap-2">
+          <img src={tickIcon} alt="tick" className="w-5 h-5" />
+          Write with clarity, balance, and examiner-friendly logic
         </li>
       </ul>
-
-      <p className="mt-4 text-sm text-black">
-        Your takeaway: Read smart, never miss scattered info, and turn this
-        dreaded section into a scoring machine.
-      </p>
     </div>
   </div>
 </div>
@@ -130,10 +132,10 @@ const WorkshopSchedule = () => {
       {/* Text section */}
       <div className="max-w-4xl mx-auto mt-8 md:mt-12 text-left">
         <h3 className="font-extrabold text-lg md:text-xl max-sm:text-base">
-          Score Big Now Or <br /> Build Reading Power For Life
+          Score Big Now Or <br /> Build Writing Power For Life
         </h3>
         <p className="mt-6 text-gray-800 leading-relaxed text-base md:text-lg max-sm:text-sm">
-          When I first cracked <strong>Band 9</strong>, I realised Reading wasn’t about speed it was about systems...
+          When I first cracked <strong>Band 9</strong>, I realised Writing wasn’t about speed it was about systems...
         </p>
         <p className="mt-4 text-gray-800 leading-relaxed text-base md:text-lg max-sm:text-sm">
           Here’s the best part: this workshop gives you both options...

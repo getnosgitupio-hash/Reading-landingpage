@@ -29,8 +29,8 @@ const TrustedSection = () => {
       {/* Subheading */}
       <p className="mt-6 text-sm md:text-xl font-bold text-gray-900 max-w-lg mx-auto px-4">
         Start doing what{" "}
-        <span className="text-[#1862E3] font-extrabold">Band 9</span> Scorers do
-        and watch your Reading score skyrocket in just 3 days!{" "}
+        <span className="text-[#1862E3] font-extrabold">Band 8+</span> Scorers do
+        and watch your Writing score skyrocket in just 3 days!{" "}
         <span className="relative inline-block align-baseline top-[1.75rem] text-[#1862E3] text-[60px] md:text-[70px] leading-[0px]">
           ”
         </span>

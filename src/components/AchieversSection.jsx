@@ -4,12 +4,16 @@ import studentsImage from "../assets/students.png"; // your 3-students image
 
 const AchieversSection = () => {
   return (
-    <div className="px-4 md:px-6 py-8 md:py-12 text-center">
+    <div className="px-4 md:px-6 py-8 md:py-12 text-center mb-6">
       {/* Heading */}
-      <h2 className="text-2xl md:text-4xl font-extrabold leading-snug max-w-xl mx-auto max-sm:text-[25px]">
+      <h2 className="text-2xl md:text-5xl font-extrabold leading-[40px] max-w-xl mx-auto max-sm:text-[25px]">
         Our Growing Community Of{" "}
         <span className="bg-[#D2F801] px-1">IELTS Achievers</span>
+        
       </h2>
+        <span className="block text-black text-center font-normal mt-6 text-sm md:text-lg max-sm:text-xs">
+    Thousands of learners across India and abroad have used this system to improve their <br className="hidden md:block" /> Writing performance.!
+  </span>
 
       {/* Students Image */}
       <div className="relative mt-8 md:mt-16 max-w-5xl mx-auto">
@@ -59,7 +63,7 @@ const AchieversSection = () => {
     className="inline-block"
   >
     <button className="group relative overflow-hidden bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-xs max-sm:px-6 max-sm:py-3">
-      START YOUR BAND-9 READING SPRINT TODAY
+      START YOUR BAND-9 WRITING SPRINT TODAY
       <span
         aria-hidden="true"
         className="absolute inset-[-100%] -left-[30%] bg-gradient-to-r from-transparent via-white/100 to-transparent [clip-path:polygon(10%_0%,40%_0%,30%_100%,0%_100%)] transform -translate-x-[390%] rotate-[8deg] blur-sm group-hover:animate-slash-sweep"
@@ -68,7 +72,7 @@ const AchieversSection = () => {
   </a>
 
   <p className="mt-4  text-sm font-semibold text-gray-800 max-sm:text-xs">
-    Live on Zoom | Feb 23rd – 25th, 2026 | 9 PM – 11 PM IST
+    Live on Zoom | Mar 23rd – 25th, 2026 | 9 PM – 11 PM IST
   </p>
 </div>
 

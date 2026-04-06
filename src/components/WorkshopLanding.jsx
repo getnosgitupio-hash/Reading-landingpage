@@ -19,19 +19,17 @@ const WorkshopLanding = () => {
     >
       {/* Heading */}
       <div className="max-w-6xl mx-auto p-4 md:p-6 rounded-lg">
-        <h2 className="text-4xl md:text-[48px] font-extrabold leading-8 md:leading-snug max-sm:text-[24px]">
-          Still Wasting Hours Reading Passages Line By Line? Discover The{" "}
+        <h2 className="text-4xl md:text-[48px] font-extrabold leading-8 md:leading-snug max-sm:text-[21px]">
+          Are You Looking to{" "}
           <span className="bg-[#D2F801] px-1 font-extrabold">
-            3-Day Shortcut
+           Score Band 8+ in IELTS Writing
           </span>{" "}
-          That Gets You To{" "}
+          & Finally Get Your{" "}
           <span className="bg-[#D2F801] px-1 font-extrabold">Band 8+</span>{" "}
-          Without Wasting Months Of Painful Prep.
+       Visa in 2026?
         </h2>
         <p className="text-gray-700 max-w-4xl mx-auto text-xl mt-4 max-sm:text-[16px]">
-          Stop wasting hours reading every word, guessing answers, and losing
-          marks you could easily grab. Get access to my proven 3-Day Reading
-          System and finally master True/False/Not Given, Matching Headings, and Matching Features the Band 8+ way.
+         In just 3 days, I’ll show you the exact system Band 8+ scorers use to solve passages faster, answer accurately, and avoid common traps.
         </p>
       </div>
 
@@ -72,17 +70,19 @@ const WorkshopLanding = () => {
       </div>
 
       {/* Pricing Section */}
-      <div className="mt-4 md:mt-16 bg-white/80 p-6 rounded-lg max-w-lg mx-auto max-sm:p-3">
+      <div className="mt-4 md:mt-12 bg-white/80 p-6 lg:p-2 rounded-lg max-w-lg mx-auto max-sm:p-3">
         <h3 className="text-4xl font-bold max-sm:text-lg">
           Today Only: <span className="text-black text-4xl max-sm:text-lg">₹99</span>
         </h3>
         <p className="text-[#FE0000] text-2xl font-semibold mt-4 max-sm:text-sm">
           🔥 ORIGINAL: ₹1,999 - LIMITED SEATS
         </p>
-        <p className="flex items-center justify-center gap-2 text-gray-950 text-base mt-2 max-sm:text-xs">
-          <img src={verifiedIcon} alt="verified" className="w-5 max-sm:w-3" />
-          Live & Interactive | Secure & Safe Checkout
-        </p>
+        <div className="max-w-7xl mx-auto flex items-center justify-center px-4 sm:px-6 py-2 lg:py-5">
+        <div className="hidden sm:flex items-center gap-6 text-md text-black/80">
+          <span>⭐ 4.9/5 Rating</span>
+          <span>👥 10k+ Students</span>
+        </div>
+      </div>
       </div>
 
       {/* CTA Button */}
@@ -92,8 +92,8 @@ const WorkshopLanding = () => {
   rel="noopener noreferrer"
   className="inline-block"
 >
-  <button className="group relative overflow-hidden bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-base max-sm:px-4 max-sm:py-3">
-    JOIN THE 3-DAY READING WORKSHOP
+  <button className="uppercase group relative overflow-hidden bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-base max-sm:px-4 max-sm:py-3">
+    JOIN THE 3-DAY Writing WORKSHOP
     <span
       aria-hidden="true"
       className="absolute inset-[-100%] -left-[30%] bg-gradient-to-r from-transparent via-white/100 to-transparent [clip-path:polygon(10%_0%,40%_0%,30%_100%,0%_100%)] transform -translate-x-[390%] rotate-[8deg] blur-sm group-hover:animate-slash-sweep"

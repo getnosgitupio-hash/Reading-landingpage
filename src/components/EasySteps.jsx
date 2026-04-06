@@ -1,78 +1,53 @@
 import React from "react";
-import verifiedIcon from "../assets/verified-icon.png"; // ✅ verification icon
-import loadingGif from "../assets/loading.gif"; // ✅ loading/progress gif
-import StepsImage from "../assets/steps-image.png"; // ✅ desktop steps image
-import MobileStepsImage from "../assets/mob.svg"; // ✅ mobile steps image
 
-const EasySteps = () => {
+import Review1 from "../assets/review1.webp";
+import Review2 from "../assets/review2.webp";
+import Review3 from "../assets/review3.webp";
+import Review4 from "../assets/review4.webp";
+import Review5 from "../assets/review5.webp";
+import Review6 from "../assets/review6.webp";
+import Review7 from "../assets/review7.webp";
+import Review8 from "../assets/review8.webp";
+
+const reviews = [
+  Review1,
+  Review2,
+  Review3,
+  Review4,
+  Review5,
+  Review6,
+  Review7,
+  Review8,
+];
+
+export default function ReviewScreenshotsSection() {
   return (
-    <section className="bg-[#1862E3] text-gray-900 px-2 py-12 md:py-16">
-      {/* Heading */}
-      <h2 className="text-[25px] md:text-4xl font-extrabold text-white text-center mb-0 md:mb-12">
-        Crack IELTS Reading In{" "} <br />
-        <span className="bg-[#D2F801] text-black px-2">3 Easy Steps</span>
-      </h2>
+    <section className="bg-[#1862E3] py-0 lg:py-10 px-4">
+      <div className="max-w-7xl mx-auto">
 
-      {/* Steps */}
-      <div className="flex justify-center">
-        {/* Mobile Image */}
-        <img
-          src={MobileStepsImage}
-          alt="Steps mobile"
-          className="w-full max-w-sm md:hidden"
-        />
+        {/* HEADING */}
+        <h2 className="text-center text-4xl sm:text-4xl font-extrabold text-black mb-12">
+          See What India’s Saying <span className="bg-[#D2F801] text-black">About Our Simple</span><br className="hidden sm:block" /> & Practical Writing System
+        </h2>
 
-        {/* Desktop Image */}
-        <img
-          src={StepsImage}
-          alt="Steps desktop"
-          className="hidden md:block md:max-w-4xl w-full"
-        />
-      </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-      {/* Pricing */}
-      <div className="text-center md:mt-6">
-        <h3 className="text-lg md:text-4xl text-white font-bold">
-          Today Only: ₹99
-        </h3>
-        <p className="text-[#D2F801] text-sm md:text-xl font-semibold mt-4">
-          🔥 ORIGINAL: ₹1,999 · LIMITED SEATS
-        </p>
-        <p className="flex items-center justify-center gap-2 text-gray-200 text-xs md:text-base mt-4">
-          <img src={verifiedIcon} alt="verified" className="w-5" />
-          Live & Interactive | Secure & Safe Checkout
-        </p>
-      </div>
-
-      {/* CTA */}
-      <div className="mt-8 flex flex-col items-center">
-  <a
-    href="https://www.instamojo.com/@gbuguidi85/lb606e7b7c5ff4015958944d0470d2c2f/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block"
-  >
-    <button className="group relative overflow-hidden bg-[#D2F801] px-4 md:px-8 py-6 rounded-2xl font-extrabold text-sm md:text-3xl">
-      START YOUR BAND-9 READING SPRINT TODAY
-      <span
-        aria-hidden="true"
-        className="absolute inset-[-100%] -left-[30%] bg-gradient-to-r from-transparent via-white/100 to-transparent [clip-path:polygon(10%_0%,40%_0%,30%_100%,0%_100%)] transform -translate-x-[390%] rotate-[8deg] blur-sm group-hover:animate-slash-sweep"
+  {reviews.map((img, i) => (
+    <div
+      key={i}
+      className="w-full aspect-[4/5] bg-white rounded-xl border border-gray-200 shadow-sm flex items-center justify-center p-2"
+    >
+      <img
+        src={img}
+        alt={`review-${i}`}
+        className="w-full h-full object-contain"
       />
-    </button>
-  </a>
+    </div>
+  ))}
 
-  <p className="mt-4 text-sm font-semibold text-white text-center">
-    Live on Zoom | Feb 23rd – 25th, 2026 | 9 PM – 11 PM IST
-  </p>
 </div>
 
-
-      {/* Progress Bar */}
-      <div className="relative mt-2 md:mt-2 flex flex-col items-center">
-        <img src={loadingGif} alt="Loading progress" className="w-72 md:w-96" />
       </div>
     </section>
   );
-};
-
-export default EasySteps;
+}

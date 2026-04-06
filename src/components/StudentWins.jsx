@@ -30,11 +30,11 @@ const StudentWins = () => {
     <div className="px-6 py-4 md:py-12 text-center">
       {/* Heading */}
       <h2 className="text-2xl md:text-4xl font-extrabold leading-snug max-w-4xl mx-auto max-sm:text-[25px]">
-        See Real Student Wins That Turned Stress Into{" "}
+        See Real Students Wins That Turned Stress Into{" "}
         <span className="bg-[#D2F801] px-1">Band 8+ Scores</span>
       </h2>
       <p className="mt-3 text-lg md:text-xl font-semibold text-gray-800 max-sm:text-sm">
-        Ranked India’s #1 IELTS Reading Sprint For A Very Good Reason.
+        Ranked India’s #1 IELTS Writing Sprint For A Very Good Reason.
       </p>
 
       {/* Video Thumbnails */}
@@ -115,8 +115,8 @@ Secure & Safe Checkout              </p>
     rel="noopener noreferrer"
     className="inline-block"
   >
-    <button className="group relative overflow-hidden bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-sm max-sm:px-6 max-sm:py-5">
-      JOIN THE 3-DAY READING WORKSHOP
+    <button className="uppercase group relative overflow-hidden bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-sm max-sm:px-6 max-sm:py-5">
+      JOIN THE 3-DAY Writing WORKSHOP
       <span
         aria-hidden="true"
         className="absolute inset-[-100%] -left-[30%] bg-gradient-to-r from-transparent via-white/100 to-transparent [clip-path:polygon(10%_0%,40%_0%,30%_100%,0%_100%)] transform -translate-x-[390%] rotate-[8deg] blur-sm group-hover:animate-slash-sweep"

@@ -27,10 +27,10 @@ function App() {
    <StudentWins />
    <AchieversSection />
    <WorkshopSchedule />
-   <Band9ScorerSection />
+   {/* <Band9ScorerSection /> */}
    <RiskFreeGuarantee />
    <EasySteps />
-   <Testimonials />
+   {/* <Testimonials /> */}
    <FAQAccordion />
    <Footer />
    <Mainfooter/>

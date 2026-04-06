@@ -84,10 +84,10 @@ const Footer = ({ openPopup }) => {
              shadow-[0_8px_25px_rgba(0,57,164,0.25)]
              hover:shadow-[0_10px_30px_rgba(0,57,164,0.35)]
              transition-transform duration-300 hover:-translate-y-0.5"
-  aria-label="Join the 3-day reading workshop"
+  aria-label="Join the 3-day Writing workshop"
 >
   <span className="relative z-10">
-    join the 3-day reading workshop
+    join the 3-day Writing workshop
   </span>
 
   {/* Shine sweep */}

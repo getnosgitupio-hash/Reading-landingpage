@@ -7,11 +7,11 @@ const Testimonials = () => {
     <section className="bg-[#1862E3] px-4 sm:px-6 py-8 sm:py-16">
       {/* Heading */}
       <h2 className="text-[25px] md:text-4xl font-extrabold text-center text-white mb-10 sm:mb-12 leading-snug max-w-3xl mx-auto">
-        See What India’s Saying{" "}
+         Saying{" "}
         <span className="bg-[#D2F801] font-extrabold text-black px-1">
           About Our Fast,
         </span>{" "}
-        Simple Way To Crack IELTS Reading
+        Simple Way To Crack IELTS Writing
       </h2>
 
       {/* Testimonials Grid */}
@@ -25,7 +25,7 @@ const Testimonials = () => {
           {/* Text */}
           <p className="text-gray-900 mt-6 mb-4 text-sm sm:text-base leading-relaxed">
             “I was stuck at Band 6 for sooo long... honestly thought IELTS
-            reading is not for me. Day 1 itself cleared my T/F/NG mess… next
+            Writing is not for me. Day 1 itself cleared my T/F/NG mess… next
             attempt I hit 8.5. Still can’t believe.”
           </p>
           {/* Stars */}
@@ -48,7 +48,7 @@ const Testimonials = () => {
             <img src={QuoteIcon} alt="Quote" className="w-6 h-5 sm:w-8 sm:h-6" />
           </div>
           <p className="text-gray-900 mt-6 mb-4 text-sm sm:text-base leading-relaxed">
-            “Never once finished reading on time and always left 4 to 5
+            “Never once finished Writing on time and always left 4 to 5
             questions blank. After the workshop, phew! I had 6 mins extra.
             Headings finally made sense.”
           </p>

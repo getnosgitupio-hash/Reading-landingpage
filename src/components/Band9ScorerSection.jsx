@@ -92,7 +92,7 @@ const Band9ScorerSection = () => {
           Start doing what Band 9 scorers do
         </span>{" "}
         <br className="block" />
-        and watch your Reading score skyrocket in just 3 days!”
+        and watch your Writing score skyrocket in just 3 days!”
       </p>
 
       {/* Offer Section */}
@@ -115,7 +115,7 @@ const Band9ScorerSection = () => {
     className="inline-block"
   >
     <button className="group relative overflow-hidden text-black bg-[#D2F801] px-8 py-6 rounded-2xl font-extrabold text-3xl max-sm:text-sm max-sm:px-4 max-sm:py-3">
-      START YOUR BAND-9 READING SPRINT TODAY
+      START YOUR BAND-9 Writing SPRINT TODAY
       <span
         aria-hidden="true"
         className="absolute inset-[-100%] -left-[30%] bg-gradient-to-r from-transparent via-white/100 to-transparent [clip-path:polygon(10%_0%,40%_0%,30%_100%,0%_100%)] transform -translate-x-[390%] rotate-[8deg] blur-sm group-hover:animate-slash-sweep"

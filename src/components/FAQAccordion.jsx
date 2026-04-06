@@ -4,52 +4,52 @@ const faqs = [
   {
     question: "Is this for beginners or repeat test-takers?",
     answer:
-      "Short answer - both. We start from first principles, then layer Band 9 tactics. If you’re stuck at 6 to 6.5, this is built to break that ceiling.",
+      "Short answer both. We start from first principles, then layer Band 8+ tactics. If you're stuck at 6 to 6.5, this is built to break that ceiling.",
   },
   {
-    question: "Will this help if my exam is in 1-2 weeks?",
+    question: "Will this help if my exam is in 1–2 weeks?",
     answer:
-      "Yes. It’s a 3-day execution system with drill sheets and a 7-day plan to lock gains quickly.",
+      "Yes, the system is designed for fast improvement with focused drills.",
   },
   {
     question: "Academic or General Training?",
     answer:
-      "Works for both. The techniques (decoding, headings, info-mapping, time boxing) apply to either module.",
+      "The strategies apply to both formats with slight variations explained.",
   },
   {
     question: "What exactly do you cover in 3 days?",
     answer:
-      "Day-1: T/F/NG Decoding + NOT GIVEN vs FALSE litmus test.\nDay-2: Matching Headings in minutes (3-step paragraph analysis).\nDay-3: Information Mapping + time splits + verification loop.",
+      "Writing strategies, writing frameworks, and timed practice drills.",
   },
   {
     question: "Do I need to read super fast?",
     answer:
-      "No. We teach reading smart, not fast - how to land on the answer sentence without rereading the whole passage.",
+      "No - we focus on smart Writing, not speed alone.",
   },
   {
     question: "What if I miss a live session?",
     answer:
-      "Replays are provided. Watch your schedule inside the 10-day guarantee window.",
+      "You’ll get full recordings to watch anytime.",
   },
   {
     question: "Do I get materials to practice?",
     answer:
-      "Yes. Drill sheets, cheat cards (T/F/NG, Headings, Info-Map), locator map, error-log, and a 7-day practice plan.",
+      "Yes, you’ll receive structured worksheets and mock tests.",
   },
   {
     question: "How soon will I see improvement?",
     answer:
-      "Many students report jumps within a week. Typical uplift is +1.5 to +2.5 bands with consistent practice.",
+      "Most students notice clarity within the first 1–2 days.",
   },
   {
     question: "Is there personal doubt-clearing?",
     answer:
-      "Yes - live Q&A plus a guided framework to fix your exact sticking points.",
+      "Yes, dedicated time is allocated for Q&A.",
   },
   {
     question: "What if it’s not for me?",
     answer:
-      "You’re covered by our 10-Day Risk-Free promise. Attend or watch replays, try the drills - if you don’t feel it’s worth ₹99, we’ll refund you.",
+      "We have a fair refund policy if expectations aren’t met.",
   },
 ];
 

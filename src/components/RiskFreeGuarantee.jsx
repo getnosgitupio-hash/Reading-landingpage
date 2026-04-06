@@ -5,17 +5,17 @@ import loadingGif from "../assets/loading.gif";
 
 const RiskFreeGuarantee = () => {
   return (
-    <section className="px-6 pt-28 pb-12 md:pb-20 bg-white text-gray-900">
+    <section className="px-6 pt-14 pb-12 md:pb-20 bg-white text-gray-900">
       {/* Heading */}
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-10 leading-snug max-sm:text-xl">
-        14 days - Risk-free{" "}
+        14 Days - Risk-Free{" "}
         <span className="bg-[#D2F801] px-2">Guarantee*</span>
       </h2>
 
       {/* P.S. Line + Badge in Flex */}
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-start justify-between mb-6 text-center md:text-left">
         <p className="font-bold text-base md:text-3xl max-sm:text-sm">
-          P.S. Try the IELTS Reading Workshop completely risk-free.
+          P.S. Try The IELTS Writing Workshop Completely Risk-Free
         </p>
         <img
           src={blueBadge}
@@ -27,27 +27,19 @@ const RiskFreeGuarantee = () => {
       {/* Description */}
       <div className="max-w-4xl mx-auto text-left">
         <p className="text-gray-800 leading-relaxed mb-4 max-sm:text-sm">
-          I’m so confident this 3-day system will help you hit Band 8+ in
-          Reading that I’m backing it with a simple promise:{" "}
+          I’m so confident this 3-day system will help you hit Band 7+ in
+          Writing that I’m backing it with a simple promise:{" "}
           <strong>
             attend the sessions or watch the replays, do the drill sheets,
             practise with mock tests under time
           </strong>
-          , and if after getting your IELTS result you don’t achieve Band 8+,
-          just reach out within 14 days and I’ll refund your ₹99.
+          , and if after getting your IELTS result you don’t achieve Band 7+,
+          just reach out within 14 days and I’ll refund your ₹199.
         </p>
 
         <p className="text-gray-800 leading-relaxed mb-4 max-sm:text-sm">
           No tricks, no hard feelings, just share the proof and we’ll make it
           right.
-        </p>
-
-        <p className="text-gray-800 leading-relaxed text-sm md:text-base max-sm:text-xs">
-          <strong>Fair-use T&Cs:</strong> valid within 14 days of your official
-          IELTS result release, for first-time enrolments, after a good-faith
-          attempt (attend workshop all 3 days + complete the Day-1 drill +
-          attempt mock tests). Refunds are processed to the original payment
-          method.
         </p>
       </div>
 
@@ -83,7 +75,7 @@ const RiskFreeGuarantee = () => {
   </a>
 
   <p className="mt-4 text-sm font-semibold text-gray-800 max-sm:text-xs text-center">
-    Live on Zoom | Feb 23rd – 25th, 2026 | 9 PM – 11 PM IST
+   Live on Zoom | Mar 23rd – 25th, 2026 | 9 PM – 11 PM IST
   </p>
 </div>
 

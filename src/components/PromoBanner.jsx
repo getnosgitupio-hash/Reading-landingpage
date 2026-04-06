@@ -6,7 +6,7 @@ const PromoBanner = () => {
     <div className="w-full">
       {/* Top blue strip */}
       <div className="bg-blue-600 text-white text-center py-3 text-[9px] md:text-base font-medium px-2">
-        🔥 Limited Offer: Exclusive Coupon for the First 100 Students at Checkout! 🔥
+        🔥 Limited Offer: Today Only ₹199 |Live on Zoom| Mar 23rd - 25th, 2026 |8 PM to 10 PM IST🔥
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between bg-[#fdfcf8] px-4 md:px-6 pt-4 md:pt-5 pb-4 md:pb-5 gap-4 md:gap-0">
@@ -26,8 +26,7 @@ const PromoBanner = () => {
 
             {/* Text */}
             <p className="text-[10px] sm:text-sm md:text-base font-medium leading-snug">
-              Last chance to join the proven 3-Day IELTS Reading System – Band 8+
-              guaranteed. ₹99 | Only 23 seats left!
+              Last chance to join the proven 3-Day IELTS Writing System – Band 8+ guaranteed. ₹199 | Only 23 seats left!
             </p>
           </div>
         </div>
